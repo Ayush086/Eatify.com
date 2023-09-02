@@ -4,6 +4,7 @@ A responsive website made using HTML and CSS
 ## Table of Contents
 
 - [Demo](#demo)
+- [Code](#code)
 - [Technologies Used](#technologies-used)
 - [Note](#note)
 
@@ -15,6 +16,11 @@ Here are some screenshots of the created website for demo:
 ![Screenshot 2023-09-03 031929](https://github.com/Ayush086/Eatify.com/assets/111568550/b03f19d1-8dcb-401f-a532-2b26b13be0ef)
 ![Screenshot 2023-09-03 031907](https://github.com/Ayush086/Eatify.com/assets/111568550/5d10a6ef-36be-4904-868f-d390f6dbac23)
 
+
+## Code
+index.html - contains html code of website
+style.css - contains pc screen styling of website
+phone.css - contains smart-phone screen styling of website
 
 ## Technologies Used
 
