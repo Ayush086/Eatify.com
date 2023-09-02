@@ -1,0 +1,259 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* CSS Variables */
+:root{
+    --navbar-height: 60px;
+}
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+}
+
+#navbar::before{
+    content: "" ;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+/* logo and image inside navbar */
+#navbar #logo{
+    margin: 25px 36px;
+    height: 30px;
+}
+#navbar #logo img{
+    width: 93px;
+    height: 81px;
+    margin-top: -27px;
+    margin-left: -36px;
+    background-color: azure;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Gugi', cursive;
+    gap: 2.3em;
+}
+#navbar ul li{
+    color: black;
+    list-style: none;
+    font-size: 1.4rem;
+    text-align: center;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 25px;
+    border: solid 2.3px white;
+    border-radius: 22px;
+    padding-bottom: 4px;
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+
+    text-decoration: none;
+    color: rgb(244, 243, 244);
+}
+
+#navbar ul li a:hover,a:focus{
+    transition: all 0.2s ease-out;
+    color: white;
+    background-color:gray;
+}
+
+
+/* Home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 250px;
+    justify-content: center;
+    align-items: center;
+    height: 473px;
+    border: 2px solid black;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../foodDelivery/header1.png') no-repeat center center/cover;
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.789;
+}
+
+#home h1{
+    text-align: center;
+    color: white;
+    font-size: 3.8rem;
+    font-family: 'Black Ops One', cursive;
+}
+
+#home p{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* space  */
+.space{
+    /* border: 2px solid crimson; */
+    height: 40px;
+}
+
+/* service section  */
+#services{
+    display: flex;
+}
+
+#services .box{
+    border: 3px solid red;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: rgba(244, 236, 236, 0.97);
+    
+}
+
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+/* client section */
+#client section {
+    position:relative;
+}
+#client-section h2{
+    padding: 26px
+}
+#client-section::before{
+    content: "";
+    position:absolute;
+    background: url(../foodDelivery/bg.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-item{
+    padding: 14px;
+}
+#client-item img{
+    height: 90px;
+    border-radius: 15px;
+}
+
+/* contact section */
+#contact{
+    position: relative;
+    margin-top: 95px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url(../foodDelivery/contact.jpg) no-repeat center center/cover;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-bottom: 34px;
+}
+
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 0.2rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.2rem;
+    font-family: 'Gugi', cursive;
+}
+
+.submit-btn{
+    padding: 4px 12px;
+    font-size:medium;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.submit-btn:hover, .submit-btn:focus{
+    background-color: rgba(159, 148, 148, 0.356);
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+/* utility classes */
+.primary{
+    font-size: 3.2rem;
+    padding: 10px;
+}
+
+.btn{
+    padding: 5px 15px;
+    border: 2.4px solid black;
+    border-radius: 14px;
+    margin: 25px;
+    font-size: 1rem;
+    width: 13%;
+    height: 8%;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    background-color: rgba(0, 0, 0, 0.421);
+    width: 115px;
+    height: 35px;
+}
+
+.h-primary{
+    font-size: 2.9rem;
+    font-family: 'Black Ops One', cursive;
+}
+
+.h2-secondary{
+    font-size: 2.4rem;
+    padding:10px;
+    font-family: 'Rowdies', cursive;
+}
+
+.center{
+    text-align: center;
+}
