@@ -1,0 +1,76 @@
+/* these css file is supposed to be used when you want to see how the website will look like in a smart phone */
+
+/* navigation bar */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul{
+    gap: 0.2rem;
+}
+
+#navbar ul li a{
+    font-size: 0.85rem;
+    padding: 0px 16px;
+
+}
+
+#navbar #logo img{
+    width: 97px;
+    height: 81px;
+    margin-top: -27px;
+    background-color: azure;
+    border-radius: 68px;
+}
+
+/* home section  */
+#home{
+    height: 540px;
+    padding: 21px 4px;
+    
+}
+/* #home::before{
+    height: 440px;
+
+} */
+
+#home h1{
+    font-size: 1.8rem;
+}
+#home p{
+    font-size: 13px;
+}
+
+/* services section  */
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+    padding: 11px;
+    margin: 2px 5px;
+    border-radius: 12px;
+}
+/* clients section */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 55px;
+    padding: 2px 5px;
+}
+/* contact section  */
+#contact-box form{
+    width: 80%;
+}
+/* utility */
+.h-primary{
+    font-size: 24px;
+}
+
+.btn, .btn:hover{
+    width: 20%;
+    height: 5%;
+    font-size:11px ;
+    padding: 4px 7px;
+}
