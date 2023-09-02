@@ -23,6 +23,6 @@ Not used any frameworks and libraries currently.
 - HTML5
 - CSS3
 
-##Note
+## Note
 Currently I'm learning frontend development and will make changes in this website in future and the changes will be updated simultaneously.
 Do suggest your advice (if any) and I'll definately look into it. 
