@@ -18,9 +18,9 @@ Here are some screenshots of the created website for demo:
 
 
 ## Code
-index.html - contains html code of website
-style.css - contains pc screen styling of website
-phone.css - contains smart-phone screen styling of website
+- index.html - contains html code of website
+- style.css - contains pc screen styling of website
+- phone.css - contains smart-phone screen styling of website
 
 ## Technologies Used
 
